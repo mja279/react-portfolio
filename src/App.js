@@ -5,19 +5,20 @@ import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
-import Contact from "./components/pages/Contact";
 
+
+// import mainBackground from "./components/assets/mainBackground.png";
 import './App.css';
+
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router> 
+      <div >
         <NavTabs />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home}/>
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
       </div>
     </Router>
   );
