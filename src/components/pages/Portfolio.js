@@ -13,10 +13,10 @@ const BACKGROUND = {
   }
 export default function Portfolio(props) {
     return (
-        <div style={BACKGROUND}>
+        <div className="about-responsive" style={BACKGROUND}>
             <div className="container justify-content-center">
                 <div className="Row d-flex">
-                    <div id="customDiv" className="col-sm-6 ">
+                    <div id="customDiv" className="col-sm-6">
                         <Carousel />
                     </div>
                 </div>

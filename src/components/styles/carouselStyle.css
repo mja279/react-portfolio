@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 .img-carousel {
     margin-top: 15px;
     margin-bottom: 5px;
@@ -5,4 +7,25 @@
     height: 25rem;
     border-radius: 0.2%;
     border: none;
+}
+
+h3 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: whitesmoke;
+    border-color: tomato;
+    border-style: solid;
+    border-width: 1px;
+    width: 20vh;
+    margin-left: 25vh;
+}
+
+a:hover {
+        color: hotpink;
+}
+
+a:active {
+    color: red;
 }

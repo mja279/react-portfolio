@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* @media (min-width:320px) and (max-width:425px) {
+    .about-responsive{
+        background-size: 50% 50%;
+        height:100%;  
+    }
+} */
+
 #aboutDiv {
     font-family: 'Rock Salt', cursive;
     font-size: 20px;

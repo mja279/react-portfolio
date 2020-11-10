@@ -16,22 +16,45 @@ export default function Resume() {
                                     <hr />
                                     <div className="resume-section-content">
                                         <div className="position-relative">
+                                        <article className="resume-timeline-item position-relative pb-5">
+                                                <div className="resume-timeline-item-header mb-2">
+                                                    <div className="d-flex flex-column flex-md-row">
+                                                        <h3 className="resume-position-title font-weight-bold mb-1">eDiscovery Jr. Project Manager</h3>
+                                                        <div className="resume-company-name ml-auto">Compliance DS</div>
+                                                    </div>
+                                                    <div className="resume-position-time">November 2020—Present</div>
+                                                </div>
+                                                <div className="resume-timeline-item-desc">
+                                                    <ul className="a">
+                                                        <li>Consult with legal and project management teams in the application of processes, technologies and the use of ESI to successful outcomes</li>
+                                                        <li>Create, administer, assist and use databases internally and with application service providers (ASPs), full text retrieval and video applications, and extranets</li>
+                                                        <li>Provide technical support and training in collaboration with legal teams, client support groups, IT staff and third-party vendors</li>
+                                                        <li>Assist in the management of ESI, the application of processes and technology at various stages of a litigation or transactional matter</li>
+                                                        <li>Provide daily support of the eDiscovery Project Management Team;</li>
+                                                    </ul>
+                                                    <h4 className="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+                                                    <ul className="list-inline">
+                                                        <li className="list-inline-item"><span className="badge badge-primary badge-pill">Relativity</span></li>
+                                                        <li className="list-inline-item"><span className="badge badge-primary badge-pill">Brainspace</span></li>
+                                                    </ul>
+                                                </div>
+                                            </article>
                                             <article className="resume-timeline-item position-relative pb-5">
                                                 <div className="resume-timeline-item-header mb-2">
                                                     <div className="d-flex flex-column flex-md-row">
                                                         <h3 className="resume-position-title font-weight-bold mb-1">Consultant, Discovery Services</h3>
                                                         <div className="resume-company-name ml-auto">Intelligent Discovery Solutions, Inc. </div>
                                                     </div>
-                                                    <div className="resume-position-time">October 2019 –Present</div>
+                                                    <div className="resume-position-time">October 2019—November 2020</div>
                                                 </div>
                                                 <div className="resume-timeline-item-desc">
                                                     <ul className="a">
-                                                        <li>Develop project plans, custom workflows and processes for Discovery Services, Information Governance, and Structured Data Analytics projects with budgets up to $5 million</li>
-                                                        <li>Manage relationships with external and internal stakeholders, communicating deadlines, tasks, data delivery schedules, and custom reporting based on search results or budget analysis</li>
-                                                        <li>Utilize document review platform (Relativity) to create standard and custom indexes; search term development, iteration and optimization; use data elements to further cull data and validate sets for production; and, develop case management work product using Case Dynamics analysis tool</li>
-                                                        <li>Coordinate with engineering team to intake data, define processes for QC and QA resolutions and ensure a high quality of work product</li>
-                                                        <li>Perform basic legal and factual research, maintaining litigation case tracking</li>
-                                                        <li>Collaborate with cross-functional teams to intake data, define processes for QC/QA and ensure a high quality of work product</li>
+                                                        <li>Developed project plans, custom workflows and processes for Discovery Services, Information Governance, and Structured Data Analytics projects with budgets up to $5 million</li>
+                                                        <li>Managed relationships with external and internal stakeholders, communicating deadlines, tasks, data delivery schedules, and custom reporting based on search results or budget analysis</li>
+                                                        <li>Utilized document review platform (Relativity) to create standard and custom indexes; search term development, iteration and optimization; use data elements to further cull data and validate sets for production; and, develop case management work product using Case Dynamics analysis tool</li>
+                                                        <li>Coordinated with engineering team to intake data, define processes for QC and QA resolutions and ensure a high quality of work product</li>
+                                                        <li>Performed basic legal and factual research, maintaining litigation case tracking</li>
+                                                        <li>Collaborated with cross-functional teams to intake data, define processes for QC/QA and ensure a high quality of work product</li>
                                                     </ul>
                                                     <h4 className="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
                                                     <ul className="list-inline">
@@ -49,7 +72,7 @@ export default function Resume() {
                                                         <h3 className="resume-position-title font-weight-bold mb-1">Project Assistant</h3>
                                                         <div className="resume-company-name ml-auto">Intelligent Discovery Solutions, Inc. </div>
                                                     </div>
-                                                    <div className="resume-position-time">August 2018-October 2019</div>
+                                                    <div className="resume-position-time">August 2018—October 2019</div>
                                                 </div>
                                                 <div className="resume-timeline-item-desc">
                                                     <ul className="a">
@@ -96,7 +119,7 @@ export default function Resume() {
                                                         <h3 className="resume-position-title font-weight-bold mb-1">Hispanic Division Intern –Paul Peck Humanities Institute Internship</h3>
                                                         <div className="resume-company-name ml-auto">Library of Congress</div>
                                                     </div>
-                                                    <div className="resume-position-time">May 2016-August 2016</div>
+                                                    <div className="resume-position-time">May 2016—August 2016</div>
                                                 </div>
                                                 <div className="resume-timeline-item-desc">
                                                     <ul className="a">
@@ -117,7 +140,7 @@ export default function Resume() {
                                                         <h3 className="resume-position-title font-weight-bold mb-1">Field Organizer</h3>
                                                         <div className="resume-company-name ml-auto">Field Strategies</div>
                                                     </div>
-                                                    <div className="resume-position-time">February 2014-May 2014</div>
+                                                    <div className="resume-position-time">February 2014—May 2014</div>
                                                 </div>
                                                 <div className="resume-timeline-item-desc">
                                                     <ul className="a">

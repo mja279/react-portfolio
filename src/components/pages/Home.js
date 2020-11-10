@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import '../styles/homeStyle.css';
 import Background from "../assets/aboutBackground.jpg";
 import GitHub from "../assets/GitHub.svg";
@@ -31,15 +32,21 @@ export default function Home() {
                 </div>
                 <div class="col-6 col-md-4 offset-md-2 test">
                     <p>
-                       <img className="icons-img" src={GitHub} alt="GitHub" href="https://github.com/mja279" /> 
-                       <img className="icons-img" src={LinkedIn} alt="LinkedIn"/>
+                        <a href="https://github.com/mja279">
+                          <img className="icons-img" src={GitHub} alt="GitHub"/>   
+                        </a>
+                       <a href="https://www.linkedin.com/in/mariajimenaalvarez/">
+                          <img className="icons-img" src={LinkedIn} alt="LinkedIn"/> 
+                       </a>
                     </p>
-                   
-                   <p>
-                        <img className="icons-img" src={Email} alt="Email"/>
-                        <img className="icons-img" src={Resume} alt="Resume"/>  
-                   </p>
-                   
+                    <p>
+                        <a href="mailto:mja279@georgetown.edu">
+                            <img className="icons-img" src={Email} alt="Email"/>
+                        </a>
+                        <Link to="/resume">
+                            <img className="icons-img" src={Resume} alt="Resume"/>  
+                        </Link>  
+                    </p> 
                 </div>
             </div>
         </div>   
