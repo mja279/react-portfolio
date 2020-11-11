@@ -16,9 +16,9 @@ function App() {
     <Router> 
       <div >
         <NavTabs />
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path="react-portfolio/" component={Home}/>
+        <Route exact path="react-portfolio/portfolio" component={Portfolio} />
+        <Route exact path="react-portfolio/resume" component={Resume} />
       </div>
     </Router>
   );
