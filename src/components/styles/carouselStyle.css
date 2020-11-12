@@ -9,7 +9,7 @@
     border: none;
 }
 
-h3 {
+.custom-header {
     font-family: 'Rock Salt', cursive;
     font-size: 15px;
     font-weight: bold;

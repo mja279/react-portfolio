@@ -21,7 +21,7 @@ export default function ControlledCarousel() {
                 alt="Project One" />
           <Carousel.Caption>
           <a href="https://brandonkett21.github.io/Project/">
-            <h3>Safar</h3>
+            <h3 className=".custom-header">Safar</h3>
           </a>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,7 +32,7 @@ export default function ControlledCarousel() {
                 alt="Project Two" />
                 <Carousel.Caption>
                   <a href="https://avalon-web-app.herokuapp.com/">
-                    <h3>Avalon Online</h3>
+                    <h3 className=".custom-header">Avalon Online</h3>
                   </a>
                 </Carousel.Caption>
         </Carousel.Item>

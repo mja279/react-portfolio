@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <Router> 
-      <div >
+      <div>
         <NavTabs />
         <Route exact path="/" component={Home}/>
         <Route exact path="/portfolio" component={Portfolio} />
